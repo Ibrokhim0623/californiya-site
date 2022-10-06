@@ -1,38 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
+  padding: 0 73px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  .App {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .App {
+    padding: 0 10px;
+  }
+
+  h2, h4 {
+    font-size: 22px !important;
+    line-height: 27px !important;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+
+
+.solutions, .about, .contact{
+  width: 100%;
+  height: 50vh;
+  background-size: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 85px;
+  color: #fff;
+  font-weight: 900;
+}
+.solutions h1, .about h1, .contact h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.solutions{
+  background: url(./assets/Dark\ Republic.png) no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about{
+  background: url(./assets/about.jpeg) no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact{
+  background: url(./assets/contact.jpg) no-repeat;
+}
+
+.arrow-up{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px 35px rgb(0 0 0 / 25%);
+  z-index: 999;
 }

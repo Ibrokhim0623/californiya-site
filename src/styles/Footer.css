@@ -1,0 +1,54 @@
+footer{
+    display: flex;
+    gap: 30px;
+    background: #F8F9FA;
+    padding: 43px 73px;
+    border-top: 1px solid #DCE5E2;
+}
+footer .logo-side{
+    width: 30%;
+}
+
+.logo-side p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+footer ul{
+    width: 18%;
+    list-style: none;
+}
+footer ul li{
+    cursor: pointer;
+}
+
+footer ul li:first-child{
+    font-family: 'Readex Pro';
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+footer ul li:not(:first-child){
+    margin-bottom: 14px;
+    transition: all 0.5s ease;
+} 
+
+footer ul li:not(:first-child):hover{
+    transform: translateX(20px);
+    color: blueviolet;
+}
+
+@media screen and (max-width: 1220px) {
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    footer{
+        padding: 30px 20px;
+    }
+}

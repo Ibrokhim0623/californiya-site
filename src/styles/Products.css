@@ -1,0 +1,86 @@
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 73px;
+}
+
+.products-content{
+    text-align: center;
+    font-family: 'Readex Pro' !important;
+    margin-bottom: 60px;
+}
+
+.products-content h2{
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.products-content p{
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.boxs{
+    display: flex;
+    gap: 28px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 303px;
+    transition: all 0.4s ease;
+}
+.box-img{
+    overflow: hidden;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.box img{
+    width: 247px;
+    margin-bottom: 9px;
+    transition: all 0.4s ease;
+}
+.box h5{
+    font-family: 'Readex Pro';
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.box p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-bottom: 9px;
+}
+.box:first-child h6{
+    margin-top: 16px;
+}
+.box h6{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1200px) {
+    .boxs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .products-content h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .box{
+        padding: 10px;
+    }
+}

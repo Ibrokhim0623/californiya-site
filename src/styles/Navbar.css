@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 73px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all 0.4s ease;
+    position: relative;
+}
+.nav-links::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0E2487;
+    transition: all 0.4s ease;
+}
+
+.nav-links:hover::before{
+    width: 100%;
+}
+
+.nav-links:hover, .nav-icons i:hover{
+    color: #0E2487;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.nav-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.nav-icons i{
+    cursor: pointer;
+}
+
+
+
+.rightSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 67%;
+}
+
+
+
+
+.toggle{
+    display: none;
+    font-size: 40px;
+}
+
+.toggle i{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .navbar{
+        padding: 15px 73px;
+      }
+    .nav-right {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        padding: 60px 0;
+        box-shadow: 1px 10px 15px rgb(0 0 0 / 30%);
+        z-index: 100;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    .toggle{
+        display: block;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .toggle i{
+        font-size: 30px;
+        background: none;
+        border: none;
+        outline: none;
+        color: #000;
+    }
+    .rightSide{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .navbar {
+        padding: 15px;
+    }
+}

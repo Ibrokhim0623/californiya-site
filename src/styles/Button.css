@@ -1,0 +1,19 @@
+.btn{
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background-color: transparent;
+    outline: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 14px 53px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
