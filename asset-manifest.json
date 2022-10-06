@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/californiya-site/static/css/main.f998422a.css",
+    "main.js": "/californiya-site/static/js/main.d8339fcb.js",
+    "static/media/contact.jpg": "/californiya-site/static/media/contact.02a433a253b70e7414d2.jpg",
+    "static/media/phone1.png": "/californiya-site/static/media/phone1.9c1665df1ff95d2b4bc9.png",
+    "static/media/phone2.png": "/californiya-site/static/media/phone2.5d63dffccf915ec77fe1.png",
+    "static/media/Dark Republic.png": "/californiya-site/static/media/Dark Republic.9eedba7cc17614acbf40.png",
+    "static/media/phone13.png": "/californiya-site/static/media/phone13.f358a5427379c09f6b89.png",
+    "static/media/phone3.png": "/californiya-site/static/media/phone3.1d1188122ed6f33e314c.png",
+    "static/media/phone5.png": "/californiya-site/static/media/phone5.ebceef0d577c3b4e75e1.png",
+    "static/media/phone4.png": "/californiya-site/static/media/phone4.32edd65a8b0ca36e8b87.png",
+    "static/media/phone11.png": "/californiya-site/static/media/phone11.61e1f3797c9469d8cbd8.png",
+    "static/media/phone9.png": "/californiya-site/static/media/phone9.bf8786078f3425a5b4fa.png",
+    "static/media/phone12.png": "/californiya-site/static/media/phone12.9e6a12f79c10b7ade6f8.png",
+    "static/media/about.jpeg": "/californiya-site/static/media/about.b2ed7bf8a7e2b61080a8.jpeg",
+    "static/media/phone14.png": "/californiya-site/static/media/phone14.425f1467f1c9bb100ad5.png",
+    "static/media/phone7.png": "/californiya-site/static/media/phone7.89b8ba43a5751df4e3d7.png",
+    "static/media/phone8.png": "/californiya-site/static/media/phone8.63581a68455b1e6a66d5.png",
+    "static/media/phone10.png": "/californiya-site/static/media/phone10.632c7d5deb995ba498b4.png",
+    "static/media/phone6.png": "/californiya-site/static/media/phone6.c073becccfbdd8a208b1.png",
+    "static/media/slick.svg": "/californiya-site/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/californiya-site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/californiya-site/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/californiya-site/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/californiya-site/index.html",
+    "main.f998422a.css.map": "/californiya-site/static/css/main.f998422a.css.map",
+    "main.d8339fcb.js.map": "/californiya-site/static/js/main.d8339fcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f998422a.css",
+    "static/js/main.d8339fcb.js"
+  ]
+}
