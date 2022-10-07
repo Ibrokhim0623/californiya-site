@@ -24,6 +24,7 @@
 
 .portfolio{
     display: flex;
+    justify-content: center;
     gap: 35px;
 }
 
@@ -31,7 +32,7 @@
     overflow: hidden;
 }
 .portfolio-left img{
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
 }
 .portfolio-left img:hover{
     transform: scale(1.2);
